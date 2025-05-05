@@ -4,10 +4,11 @@
 For this assignment, you are going to navigate your Thymio robot using the robot motion plan you have found from your last assignment (A#3: graph search algorithms to perform robot motion planning).
 ## The Data :bar_chart: 
 You will use given files:
-* _map of the robot world_ (attached in this repository under the 'map/' directory)
- * _map_block1_block11.pdf.pdf_
- * _map_block12_block22.pdf.pdf_
- * _map_block23_block33.pdf.pdf_ 
+* _map of the robot world_ (attached in this repository under the 'map/' directory): The map consists of multiple blocks, each dimensioned to provide adequate space for positioning the Thymio robot within its boundaries.
+  * _map_block1_block11.pdf.pdf_
+  * _map_block12_block22.pdf.pdf_
+  * _map_block23_block33.pdf.pdf_ 
+
 * _a4_starter.aesl_ (ASEBA file for Thymio attached in this repository)
 
 The objective of this assignment is to develop navigation code—either using Block-based programming or ASEBA—that enables the robot to follow the optimal path from its __initial state__ to the __goal state__. This optimal path should correspond to the one previously computed on the map using __Best-First Search__ and __A* search__ algorithms.
